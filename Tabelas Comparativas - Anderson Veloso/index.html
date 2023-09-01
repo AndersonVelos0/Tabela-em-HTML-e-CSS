@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Eletrônicos</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 7cap;
+        }
+
+        td {
+            border: 1px solid rgb(174, 0, 255);
+            padding: 10px;
+            text-align: center;
+            background-color: rgba(255, 145, 0, 0.69);
+        }
+
+        th {
+            border: 1px solid rgb(174, 0, 255);
+            padding: 10px;
+            text-align: center;
+        }
+
+        tr {
+            background-color: #df1515;
+        }
+
+        tfoot td {
+            background-color: #df1515;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        table caption {
+            caption-side: bottom;
+            text-align: right;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1>RELAÇÃO ITENS X VENDAS</h1>
+            </div>
+        </div>
+    </div>
+    <table>
+        <caption>Tabela de relação entre item e venda.</caption>
+        <tr>
+            <th>Item da Loja</th>
+            <th>Código do Item</th>
+            <th>Preço do Item</th>
+            <th>Quantidade Vendida</th>
+            <th>Total Vendido</th>
+        </tr>
+        <tr>
+            <td>Notebook Lenovo</td>
+            <td>54325762JF24K89</td>
+            <td>R$ 3800,00</td>
+            <td>30 UND</td>
+            <td>R$ 114.000,00 </td>
+        </tr>
+        <tr>
+            <td>Iphone 14 Pro Max</td>
+            <td>D6859335684KG49</td>
+            <td>R$ 7900,90</td>
+            <td>12.456 UND</td>
+            <td>R$ 98.413.610,40 </td>
+        </tr>
+        <tr>
+            <td>Galaxy Note 23 Ultra</td>
+            <td>5483756J43KDS33</td>
+            <td>R$ 9.900,90</td>
+            <td>5.000 UND </td>
+            <td>R$ 49.504.500,00</td>
+        </tr>
+        <tr>
+            <td>Galaxy Buds </td>
+            <td>53225769LDS3954</td>
+            <td>R$ 450,00</td>
+            <td>2.000 UND </td>
+            <td>R$ 900.000,00</td>
+        </tr>
+        <tr>
+            <td>Apple AirPods </td>
+            <td>A45443P3553PL45</td>
+            <td>R$ 1.700,00</td>
+            <td>30.000</td>
+            <td>R$ 51.000.000,00 </td>
+        </tr>
+
+        <tfoot>
+            <td colspan="4">Total:</td>
+            <td  class="editando_footer">R$ 199.932.110,4</td>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
